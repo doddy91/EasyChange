@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css?family=Aclonica|Aladin'); /*POLICE LEGEND*/
+
+body
+{
+    /* background-image: radial-gradient(circle at center, white, #2AAAD6);*/
+     background-image: radial-gradient(closest-side ellipse at center, white, #2AAAD6);
+     background-attachment: fixed;
+}
+
+.global-connexion
+{
+    padding: 15%; 
+    margin-left: 10%; 
+    margin-right:10%;
+}
+
+.global-connexion fieldset
+{
+    border: 2px #FACB28 ridge;
+    /*background-color: rgba(259, 156, 49, 0.5);*/
+    border-radius: 0% 3% 3%
+}
+
+.global-connexion fieldset .connect
+{
+     padding: 5%;
+}
+
+
+.global-connexion fieldset legend
+{
+    color: #FACB28;
+    font-family: 'Aclonica', sans-serif;
+    font-size:2.5em; 
+    font-weight:bold;
+     text-shadow: 2px 2px 4px black;
+}
